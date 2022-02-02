@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body,
+html {
+	background-image: url(img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(20, 8, 0);
+	font-family: "Roboto", sans-serif;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+
+.logo-login {
+	max-height: 150px;
+}
+.logo-home {
+	max-height: 75px;
+}
+
+.lupa-pass {
+	font-size: smaller;
+	color: white;
+}
+
+.lupa-pass a {
+	text-decoration: none;
+	color: orange;
+	font-weight: 500;
+}
+
+/* Home */
+.card-balance {
+	color: white;
+	font-size: 12px;
+}
+.form-balance {
+	background: linear-gradient(180deg, #ffdb1c 0%, #ff8a00 100%);
+	border: 2px solid #ffac0b;
+	border-radius: 30px 0px;
+	padding: 10px;
+	color: black;
+	font-size: 12px;
+	font-weight: 500;
+	margin-top: 5px;
+}
+
+/* Menu Coin */
+.coin {
+	font-size: 20px;
+}
+
+.coin p {
+	color: white;
+	font-size: 11px;
+	margin: auto;
+}
+
+.form-check-input:checked {
+	background-color: orange;
+}
+
+/* menu */
+
+.menu p,
+a {
+	color: white;
+	font-size: 12px;
+	margin-top: -10px;
+	text-decoration: none;
+}
+
+/* Depo WD */
+.qr {
+	max-height: 150px;
+}
+.label-input {
+	font-size: smaller;
+}
+
+/* table histori trade */
+.history-trade {
+	font-size: 10px;
+}
+
+.profit td {
+	color: green !important;
+}
+
+.lose td {
+	color: red !important;
+}
+
+.depo td {
+	color: orange !important;
+}
+
+.wd td {
+	color: rgb(4, 92, 255) !important;
+}
+
+.coin-bonus td {
+	color: orange !important;
+}
+
+.history-trade p {
+	color: white;
+	font-size: 10px;
+}
+
+/* Referral */
+.bonus {
+	background: #fecd35;
+	border-radius: 7px;
+	padding: 15px;
+	margin: auto;
+	color: white;
+	font-weight: bolder;
+}
+
+.referral a {
+	text-decoration: none;
+	color: white;
+}
+/* Footer */
+
+#footer {
+	background: #ffdb1c;
+	border-radius: 15px 15px 0px 0px;
+	padding: 0.5rem;
+
+	box-shadow: 0px -8px 10px -2px rgba(0, 0, 0, 0.62);
+	-webkit-box-shadow: 0px -8px 10px -2px rgba(0, 0, 0, 0.62);
+	-moz-box-shadow: 0px -8px 10px -2px rgba(0, 0, 0, 0.62);
+	margin-top: 20px;
+}
+.dashboard {
+	position: static;
+	margin-top: -2rem;
+}
+.dashboard svg {
+	max-height: 50px;
+}
+/* break */
+@media (min-width: 992px) {
+	body {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+}
