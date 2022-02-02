@@ -301,7 +301,7 @@ $aboutAdmin = new getAllAdmin();
 							<div class="input-group mb-3">
 								<input type="number" step="0.00001" class="form-control" name="jumlah_deposit" />
 							</div>
-							<p style="font-size: 10px;">*Biaya admin <?= $memberr->getBiayaAdmin("Deposit")*100 ?>%</p>
+							<p style="font-size: 10px;">*Biaya Robot <?= $memberr->getBiayaAdmin("Deposit")*100 ?>%</p>
 							<!-- <label for="basic-url" class="form-label label-input">Alamat Doge Anda</label>
 							<div class="input-group mb-3">
 								<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
@@ -339,7 +339,7 @@ $aboutAdmin = new getAllAdmin();
 								<input type="hidden" name="url_wallet" value="<?= $aboutUser->countCurrentBlance("wallet",$data['type_wallet'],$_SESSION["member_username_bot"]) ?>">
 								<input type="hidden" name="coin" value="<?= $data['type_wallet'] ?>">
 							</div>
-							<p style="font-size: 10px;">*Biaya admin <?= $memberr->getBiayaAdmin("Withdraw")*100 ?>%</p>
+							<p style="font-size: 10px;">*Biaya Robot <?= $memberr->getBiayaAdmin("Withdraw")*100 ?>%</p>
 						</div>
 
 						<div class="modal-footer">

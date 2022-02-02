@@ -73,7 +73,7 @@ $admin = new getAllMember();
 					</a>
 				</div>
 				<div class="card-balance col-sm-12 text-center mb-3">
-					PROFIT DOGE ADMIN
+					PROFIT DOGE ROBOT
 					<div class="form-balance">
 						<?= $admin->profitAdmin("DOGE") ?>
 					</div>
@@ -112,7 +112,7 @@ $admin = new getAllMember();
 					></a>
 				</div>
 				<div class="card-balance col-sm-12 text-center mb-3">
-					PROFIT BTT ADMIN
+					PROFIT BTT ROBOT
 					<div class="form-balance">
 						<?= $admin->profitAdmin("BTT") ?>
 					</div>
@@ -152,7 +152,7 @@ $admin = new getAllMember();
 					></a>
 				</div>
 				<div class="card-balance col-sm-12 text-center mb-3">
-					PROFIT TRON ADMIN
+					PROFIT TRON ROBOT
 					<div class="form-balance">
 						<?= $admin->profitAdmin("TRON") ?>
 					</div>
@@ -191,7 +191,7 @@ $admin = new getAllMember();
 					></a>
 				</div>
 				<div class="card-balance col-sm-12 text-center mb-3">
-					PROFIT SHIBA ADMIN
+					PROFIT SHIBA ROBOT
 					<div class="form-balance">
 						<?= $admin->profitAdmin("SHIBA") ?>
 					</div>

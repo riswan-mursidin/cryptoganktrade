@@ -179,7 +179,7 @@ $aboutUser = new viewMember();
 								<input type="hidden" name="coin" value="<?= strtoupper($coinname) ?>">
 							</div>
 							<?php $memberr = new getAllMember(); ?>
-							<p style="font-size: 10px;">*Biaya admin <?= $memberr->getBiayaAdmin("Withdraw")*100 ?>%</p>
+							<p style="font-size: 10px;">*Biaya Robot <?= $memberr->getBiayaAdmin("Withdraw")*100 ?>%</p>
 						</div>
 
 						<div class="modal-footer">
