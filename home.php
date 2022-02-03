@@ -294,7 +294,9 @@ $aboutAdmin = new getAllAdmin();
 								Copy
 							</button>
 							<hr />
-							<p style="font-size: smaller">Transfer Doge ke alamat diatas, setelah Transfer selesai, silahkan isi Form Validasi dibawah ini.</p>
+							<p style="font-size: smaller">Transfer kealamat wallet diatas. </p>
+							<p style="font-size: smaller;">Untuk Deposite menggunakan BTT Gunakan jaringan <span style="color:orangered;">TRC20</span>  dan untuk SHIBA Gunakan jaringan <span style="color:orangered;">ERC20</span>  </p>
+							<p style="font-size: smaller"> setelah Transfer selesai, silahkan isi Form Validasi dibawah ini.</p>
 						</div>
 						<div class="container">
 							<label for="basic-url" class="form-label label-input">Jumlah</label>
