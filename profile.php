@@ -131,15 +131,15 @@ $tokenMember = new viewMember();
 						<div class="mb-3">
 							<input type="text" autocomplete="off" name="wallet[]" class="form-control shadow-sm" value="<?= $tokenMember->countCurrentBlance("wallet","DOGE",$_SESSION["member_username_bot"]) ?>" placeholder="Doge Address" />
 						</div>
-						<label for="basic-url" class="form-label">BTT Wallet</label>
+						<label for="basic-url" class="form-label">BTT Wallet | TRC20 </label>
 						<div class="mb-3">
 							<input type="text" autocomplete="off" name="wallet[]" class="form-control shadow-sm" value="<?= $tokenMember->countCurrentBlance("wallet","BTT",$_SESSION["member_username_bot"]) ?>" placeholder="BTT Address" />
 						</div>
-						<label for="basic-url" class="form-label">TRON Wallet</label>
+						<label for="basic-url" class="form-label">TRON Wallet </label>
 						<div class="mb-3">
 							<input type="text" autocomplete="off" name="wallet[]" class="form-control shadow-sm" value="<?= $tokenMember->countCurrentBlance("wallet","TRON",$_SESSION["member_username_bot"]) ?>" placeholder="TRON Address" />
 						</div>
-						<label for="basic-url" class="form-label">SHIBA Wallet</label>
+						<label for="basic-url" class="form-label">SHIBA Wallet | ERC20</label>
 						<div class="mb-3">
 							<input type="text" autocomplete="off" name="wallet[]" class="form-control shadow-sm" value="<?= $tokenMember->countCurrentBlance("wallet","SHIBA",$_SESSION["member_username_bot"]) ?>" placeholder="SHIBA Address" />
 						</div>
