@@ -131,7 +131,7 @@ $tokenMember = new viewMember();
 						<div class="mb-3">
 							<input type="text" autocomplete="off" name="wallet[]" class="form-control shadow-sm" value="<?= $tokenMember->countCurrentBlance("wallet","DOGE",$_SESSION["member_username_bot"]) ?>" placeholder="Doge Address" />
 						</div>
-						<label for="basic-url" class="form-label">BTT Wallet | TRC20 </label>
+						<label for="basic-url" class="form-label">BTTC Wallet | TRC20 </label>
 						<div class="mb-3">
 							<input type="text" autocomplete="off" name="wallet[]" class="form-control shadow-sm" value="<?= $tokenMember->countCurrentBlance("wallet","BTT",$_SESSION["member_username_bot"]) ?>" placeholder="BTT Address" />
 						</div>

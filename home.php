@@ -105,14 +105,14 @@ $aboutAdmin = new getAllAdmin();
 			<div class="row" style="display: none;" id="viewbtt">
 
 				<div class="card-balance col-6 text-center mb-3">
-					TOTAL PROFIT BTT
+					TOTAL PROFIT BTTC
 					<div class="form-balance">
 					<?= $aboutUser->countCurrentBlance("profit","BTT",$_SESSION['member_username_bot']) ?>
 					</div>
 				</div>
 
 				<div class="card-balance col-6 text-center mb-3">
-					TOTAL WITHDRAW BTT
+					TOTAL WITHDRAW BTTC
 					<a data-bs-toggle="modal" data-bs-target="#historywd">
 						<div class="form-balance">
 							<?= $aboutUser->countWithdraw("BTT",$_SESSION['member_username_bot'],"NOBONUS") ?>
@@ -222,7 +222,7 @@ $aboutAdmin = new getAllAdmin();
 					</div>
 				</div>
 				<div class="coin">
-					<p>BTT</p>
+					<p>BTTC</p>
 					<div class="form-check form-switch">
 						<input class="form-check-input" id="checkbtt" type="checkbox" role="switch"/>
 					</div>
@@ -295,7 +295,7 @@ $aboutAdmin = new getAllAdmin();
 							</button>
 							<hr />
 							<p style="font-size: smaller">Transfer kealamat wallet diatas. </p>
-							<p style="font-size: smaller;">Untuk Deposite menggunakan BTT Gunakan jaringan <span style="color:orangered;">TRC20</span>  dan untuk SHIBA Gunakan jaringan <span style="color:orangered;">ERC20</span>  </p>
+							<p style="font-size: smaller;">Untuk Deposite menggunakan BTTC Gunakan jaringan <span style="color:orangered;">TRC20</span>  dan untuk SHIBA Gunakan jaringan <span style="color:orangered;">ERC20</span>  </p>
 							<p style="font-size: smaller"> setelah Transfer selesai, silahkan isi Form Validasi dibawah ini.</p>
 						</div>
 						<div class="container">
