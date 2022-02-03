@@ -37,10 +37,10 @@ require_once "stackingaction.php";
 			</div>
 			<div class="row mb-3">
 				<div id="passwordHelpBlock" class="form-text text-warning mb-2">Masukkan volume market disetiap masing masing Coin Market yang berlaku setiap hari</div>
-				<div class="col-6"><label class="form-label text-white">Market DOGE</label> <input name="val[]" step="0.001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
-				<div class="col-6"><label class="form-label text-white">Market BTT</label> <input name="val[]" step="0.001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
-				<div class="col-6"><label class="form-label text-white">Market TRON</label> <input name="val[]" step="0.001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
-				<div class="col-6"><label class="form-label text-white">Market SHIBA</label> <input name="val[]" step="0.001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
+				<div class="col-6"><label class="form-label text-white">Market DOGE</label> <input name="val[]" step="0.00000001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
+				<div class="col-6"><label class="form-label text-white">Market BTT</label> <input name="val[]" step="0.00000001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
+				<div class="col-6"><label class="form-label text-white">Market TRON</label> <input name="val[]" step="0.00000001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
+				<div class="col-6"><label class="form-label text-white">Market SHIBA</label> <input name="val[]" step="0.00000001" required type="number" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" /></div>
 			</div>
 
 			<div class="row">
